@@ -6,4 +6,6 @@
     background-color: yellow;
   }
 </style>
-<div class="sections-product-opt-container"></div>
+{%- if section.settings.show -%}
+  <div class="sections-product-opt-container"></div>
+{%- endif -%}

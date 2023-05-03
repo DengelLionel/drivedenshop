@@ -112,6 +112,7 @@
                 "eb99a1b5-4f6c-4d63-a249-77b45d84e5ae":{"type":"message",
                 "settings":{"title":"Pagas al Recibir en Santo Domingo",
                 "announcement_text":"<p>🚗Pagas al Recibir en Santo Domingo🚗<\/p>"}},
+               
                 "9a9c8e56-6b67-4319-a956-f886bb66c2a7":{
                     "type":"message","settings":{"title":"PAGO CONTRA ENTREGA",
                     "announcement_text":"<p>🕒COMPRA Y PAGA EN CASA.<\/p>"}}},
@@ -125,7 +126,7 @@
                     "left_message":"<p>ENVIO GRATIS<\/p>",
                     "right_message":"<p><strong>CONTACTANOS<\/strong><\/p>",
                     "announcement_autoplayspeed":5}},
-                    "sections_product_option":true,
+                    
                     "header":{"type":"header","blocks":{
                         "4cf166d9-0c18-4fe5-b0f7-747594e7a9af":{
                             "type":"product",
