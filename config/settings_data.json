@@ -48,7 +48,7 @@
     "dbtfy_synced_variant_image":false,
     "dbtfy_cookie_box":false,
     "dbtfy_shop_protect":false,
-    "sections_product_option":true,
+
     "sections":{"dbtfy-account-settings":{
         "type":"dbtfy-account-settings",
         "settings":{}},
@@ -125,6 +125,7 @@
                     "left_message":"<p>ENVIO GRATIS<\/p>",
                     "right_message":"<p><strong>CONTACTANOS<\/strong><\/p>",
                     "announcement_autoplayspeed":5}},
+                    "sections_product_option":true,
                     "header":{"type":"header","blocks":{
                         "4cf166d9-0c18-4fe5-b0f7-747594e7a9af":{
                             "type":"product",
