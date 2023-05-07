@@ -1,0 +1,19 @@
+{"productos":[
+    {
+        "producto":"producto 1",
+        "categoria":"categoria 1",
+        "año":"2019",
+        "modelo":"model 1",
+        "link_producto":"producto fff"
+    },
+    {
+        "producto":"producto 1",
+        "categoria":"categoria 1",
+        "año":"2019",
+        "modelo":"model 1",
+        "link_producto":"producto fff"
+    }
+
+]
+   
+}
