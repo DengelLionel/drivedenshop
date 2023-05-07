@@ -14,7 +14,28 @@
     font-size: 2em;
 
   }
+  .banner-celular {
+    display: block;
+  }
+  .banner-pc {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    .banner-celular {
+      display: none;
+    }
+    .banner-pc {
+      display: block;
+    }
+  }
 </style>
 <div class="banner">
-  <h2 class="banner-pago-titulo">BANNER DE PAGO</h2>
+  <img
+    class="banner-celular"
+    src="https://cdn.shopify.com/s/files/1/0727/5252/9689/files/celularbanner.jpg?v=1683418844"
+    alt="metodo de pago">
+  <img
+    class="banner-pc"
+    src="https://cdn.shopify.com/s/files/1/0727/5252/9689/files/banerpc.jpg?v=1683418855"
+    alt="metodos de pago">
 </div>
