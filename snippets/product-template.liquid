@@ -596,6 +596,16 @@
                         </div>
                       {%- endif -%}
                     </div>
+                    <div>
+                      {%- if current_variant.inventory_quantity > 0 -%}
+                        <p style="color:rgb(170, 9, 9); font-weight:medium;display:block;">¡Stock limitado! 🔥</p>
+                      {%- else -%}
+                        <p style="color:rgb(170, 9, 9); font-weight:medium;display:none;">¡Stock limitado! 🔥</p>
+                      {%- endif -%}
+                    </div>
+
+
+
                   {%- endif -%}
 
                   <div class="product-single__add-to-cart">
