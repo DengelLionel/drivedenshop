@@ -8,7 +8,8 @@
           "settings": {
             "title": "",
             "overlay": true,
-            "image": "shopify:\/\/shop_images\/24ai_generated_image-b07dae5c-88a6-46b9-b27b-52d752772e55.jpg",
+            "image": "https:\/\/res.cloudinary.com\/darps1cta\/image\/upload\/v1676389161\/cld-sample-4.jpg",
+            "image_mobile": "",
             "image_position": "center center",
             "image_position_mobile": "center center",
             "slide_link": "",
