@@ -1,14 +1,47 @@
 {
   "sections": {
-    "1664071751a0566ab6": {
-      "type": "featured-image",
+    "7312739a-453b-4762-b20e-d37f4799515d": {
+      "type": "hero",
+      "blocks": {
+        "0fe5afd6-b5b7-4742-ad1f-3d227ce5e2fb": {
+          "type": "slide",
+          "settings": {
+            "title": "",
+            "overlay": true,
+            "image": "shopify:\/\/shop_images\/24ai_generated_image-b07dae5c-88a6-46b9-b27b-52d752772e55.jpg",
+            "image_position": "center center",
+            "image_position_mobile": "center center",
+            "slide_link": "",
+            "video": "",
+            "heading_text": "Slideshow",
+            "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>",
+            "text_position": "align-center",
+            "text_position_mobile": "align-center",
+            "text_alignment": "text-center",
+            "text_alignment_mobile": "text-center",
+            "enable_custom_fonts": false,
+            "slideshow_family": "poppins_n4",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style": "btn--primary",
+            "button_label_2": "Learn more",
+            "button_link_2": "shopify:\/\/collections\/all",
+            "button_style_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "0fe5afd6-b5b7-4742-ad1f-3d227ce5e2fb"
+      ],
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "full_width": true,
-        "image": "shopify:\/\/shop_images\/24ai_generated_image-b07dae5c-88a6-46b9-b27b-52d752772e55.jpg",
-        "section_style": "section-blank",
-        "image_link": "shopify:\/\/collections\/all"
+        "section_height": "xlarge",
+        "section_height_mobile": "xlarge",
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 8
       }
     },
     "sections_product_option": {
@@ -108,7 +141,7 @@
     }
   },
   "order": [
-    "1664071751a0566ab6",
+    "7312739a-453b-4762-b20e-d37f4799515d",
     "sections_product_option",
     "16640786169685953c",
     "16640792323280a010"
