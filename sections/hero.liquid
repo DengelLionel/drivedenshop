@@ -9,25 +9,19 @@
 <div id="section-{{ section.id }}"class="{% unless section.settings.show_on_desktop %} medium--hide large--hide{% endunless %}{% unless section.settings.show_on_mobile %} small--hide{% endunless %}"data-section-id="{{ section.id }}"data-section-type="hero-section">
 
   {%- if section.blocks.size > 0 -%}
-    <div id="Hero-{{ section.id }}"
-      class="hero-container hero-index {% if hero_slick %}slick slick-hero{% endif %}"
-      data-arrows="{{ section.settings.arrows }}"
-      data-dots="{{ section.settings.dots }}"
-      data-autoplay="{{ section.settings.autoplay }}"
-      data-autoplayspeed="{{ section.settings.autoplayspeed | times: 1000 }}"
-      data-fade="true">
+    <div id="Hero-{{ section.id }}"class="hero-container hero-index {% if hero_slick %}slick slick-hero{% endif %}"data-arrows="{{ section.settings.arrows }}"data-dots="{{ section.settings.dots }}"data-autoplay="{{ section.settings.autoplay }}"data-autoplayspeed="{{ section.settings.autoplayspeed | times: 1000 }}"data-fade="true">
 
       <!-- Blocks -->
       {%- for block in section.blocks -%}
         <div class="hero hero-{{ block.id }}
-                        hero--{{ section.settings.section_height }} hero-mobile-{{ section.settings.section_height_mobile }}
-                        {{ block.settings.text_position }} small--{{ block.settings.text_position_mobile }}
-                        {{ block.settings.text_alignment }} small--{{ block.settings.text_alignment_mobile }}
-                        {% if block.settings.overlay %}overlay{% endif %}
-                        {% if hero_slick %}hero__slide{% endif %}
-                        media-wrapper"{{ block.shopify_attributes }}>
+                                    hero--{{ section.settings.section_height }} hero-mobile-{{ section.settings.section_height_mobile }}
+                                    {{ block.settings.text_position }} small--{{ block.settings.text_position_mobile }}
+                                    {{ block.settings.text_alignment }} small--{{ block.settings.text_alignment_mobile }}
+                                    {% if block.settings.overlay %}overlay{% endif %}
+                                    {% if hero_slick %}hero__slide{% endif %}
+                                    media-wrapper"{{ block.shopify_attributes }}>
 
-          {%- if block.settings.image != blank -%}
+          {%- if block.settings.text != blank -%}
             <div class="hero-image hero-image-{{ block.id }} media bgset lazyload"{%- render 'lazysizes', img: block.settings.image, img_mobile: block.settings.image_mobile, img_type: 'background' -%}></div>
           {%- elsif block.settings.video != blank -%}
             {%- assign video_extension = block.settings.video | split: '.' | last -%}
