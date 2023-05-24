@@ -13,16 +13,13 @@
 
       <!-- Blocks -->
       {%- for block in section.blocks -%}
-        <div class="hero hero-{{ block.id }}
-                                    hero--{{ section.settings.section_height }} hero-mobile-{{ section.settings.section_height_mobile }}
-                                    {{ block.settings.text_position }} small--{{ block.settings.text_position_mobile }}
-                                    {{ block.settings.text_alignment }} small--{{ block.settings.text_alignment_mobile }}
-                                    {% if block.settings.overlay %}overlay{% endif %}
-                                    {% if hero_slick %}hero__slide{% endif %}
-                                    media-wrapper"{{ block.shopify_attributes }}>
+        <div class="hero hero-{{ block.id }} hero--{{ section.settings.section_height }} hero-mobile-{{ section.settings.section_height_mobile }} {{ block.settings.text_position }} small--{{ block.settings.text_position_mobile }} {{ block.settings.text_alignment }} small--{{ block.settings.text_alignment_mobile }}
+                                 {% if block.settings.overlay %}overlay{% endif %}
+                                        {% if hero_slick %}hero__slide{% endif %}
+                                      media-wrapper"{{ block.shopify_attributes }}>
 
-          {%- if block.settings.text != blank -%}
-            <div class="hero-image hero-image-{{ block.id }} media bgset lazyload"{%- render 'lazysizes', img: block.settings.image, img_mobile: block.settings.image_mobile, img_type: 'background' -%}></div>
+          {%- if block.settings.image != blank -%}
+            <div class="hero-image hero-image-{{ block.id }} media bgset lazyload"{%- render 'lazysizes', img: block.settings.image | asset_url, img_mobile: block.settings.image_mobile | asset_url, img_type: 'background' -%}></div>
           {%- elsif block.settings.video != blank -%}
             {%- assign video_extension = block.settings.video | split: '.' | last -%}
 
