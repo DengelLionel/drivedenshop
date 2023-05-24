@@ -29,10 +29,38 @@
             "button_link_2": "shopify:\/\/collections\/all",
             "button_style_2": ""
           }
+        },
+        "dcd89bf4-f958-4ff4-9806-81b5ce659c61": {
+          "type": "slide",
+          "settings": {
+            "title": "",
+            "overlay": true,
+            "image": "https:\/\/res.cloudinary.com\/darps1cta\/image\/upload\/v1676389162\/cld-sample-5.jpg",
+            "image_mobile": "",
+            "image_position": "center center",
+            "image_position_mobile": "center center",
+            "slide_link": "",
+            "video": "",
+            "heading_text": "Slideshow",
+            "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>",
+            "text_position": "align-center",
+            "text_position_mobile": "align-center",
+            "text_alignment": "text-center",
+            "text_alignment_mobile": "text-center",
+            "enable_custom_fonts": false,
+            "slideshow_family": "poppins_n4",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style": "btn--primary",
+            "button_label_2": "Learn more",
+            "button_link_2": "shopify:\/\/collections\/all",
+            "button_style_2": ""
+          }
         }
       },
       "block_order": [
-        "0fe5afd6-b5b7-4742-ad1f-3d227ce5e2fb"
+        "0fe5afd6-b5b7-4742-ad1f-3d227ce5e2fb",
+        "dcd89bf4-f958-4ff4-9806-81b5ce659c61"
       ],
       "settings": {
         "show_on_desktop": true,
