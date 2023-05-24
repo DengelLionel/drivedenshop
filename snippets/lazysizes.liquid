@@ -3,7 +3,7 @@
   {%- assign img_url = img | img_url: '1x1', crop: crop | replace: '_1x1', '_{width}x{height}' -%}
   data-src="{{ img_url }}"
   data-sizes="auto"
-              data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"{%- if crop -%}
+                data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"{%- if crop -%}
     data-aspectratio="1.0"
   {%- else -%}
     data-aspectratio="{{ img.aspect_ratio | default: img.preview_image.aspect_ratio }}"
@@ -48,7 +48,7 @@
         {{ img_mobile | asset_url: '900x' }} 900w {{ 900 | divided_by: img_mobile.aspect_ratio | round }}h,{%- endif -%}
       {%- if img_mobile.width > 1080 -%}
         {{ img_mobile | asset_url: '1080x' }} 1080w {{ 1080 | divided_by: img_mobile.aspect_ratio | round }}h,{%- endif -%}
-      {{- ' [--small] | ' -}}
+
     {%- endif -%}
 
     {%- if img -%}
@@ -58,4 +58,4 @@
   {%- endcapture -%}
   data-bgset="{{ bgset }}"
   data-sizes="auto"
-              data-parent-fit="cover"{%- endif -%}
+                data-parent-fit="cover"{%- endif -%}
